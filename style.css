@@ -285,12 +285,57 @@
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .footer p{
     font-size: 30px;
     padding: 20px 0;
     width: 100%;
     background-color: rgb(141, 141, 160);
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.praia{
+    display: grid;
+    text-align: center;
+    gap: 60px;
+    padding: 30px;
+    width: 80%;
+    background-color: white;
+}
+.praia h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.praia h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.praiaflex{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 30px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+.praiaflex p{
+    padding: 20px 0;
+}
+.praiaflex img{
+    max-width: 500px;
+    padding: 30px 0;
+    display: block;
+}
+.praiaimagem{
+    justify-content: center;
+}
+.rodape{
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+    min-width: 100%;
+    background-color: rgb(141, 141, 160);
     font-family: Arial, Helvetica, sans-serif;
 }
